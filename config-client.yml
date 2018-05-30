@@ -1,0 +1,13 @@
+---
+spring:
+    profiles: development
+user:
+    role: Developer
+    password: passdev
+    
+---
+spring:
+    profiles: production
+user:
+    role: Production
+    password: passprod
