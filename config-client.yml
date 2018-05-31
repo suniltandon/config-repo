@@ -1,6 +1,6 @@
 ---
 spring:
-    profiles: development
+    profiles: configclientservice
 user:
     role: Developer
     password: passdev
